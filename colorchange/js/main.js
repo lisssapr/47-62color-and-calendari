@@ -1,6 +1,6 @@
 // игра цвет
 // function getRandomElement(array) {
-//   const randomIndex = Math.floor(Math.random() * array.length);
+// let randomIndex = Math.floor(Math.random() * array.length);
 //   return array[randomIndex];
 // }
 
@@ -20,8 +20,8 @@
 // }
 
 // function getNextElement(array, currentElement) {
-//   const currentIndex = array.indexOf(currentElement);
-//   const nextIndex = (currentIndex + 1) % array.length;
+//   let currentIndex = array.indexOf(currentElement);
+//   let nextIndex = (currentIndex + 1) % array.length;
 //   return array[nextIndex];
 // }
 
@@ -41,7 +41,7 @@
 // });
 // function checkVictory(cells) {
  
-//   const firstCellClass = cells[0].className;
+//   let firstCellClass = cells[0].className;
 
 //   for (let cell of cells) {
 //     if (cell.className !== firstCellClass) {
@@ -86,7 +86,6 @@
 // }
 
 // календарь 
-
 
 // let calendar = document.querySelector('#calendar');
 // let body = calendar.querySelector('.body');
